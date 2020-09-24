@@ -281,6 +281,19 @@ export default defineConfig({
               ],
             },
             {
+              name: 'sunshine',
+              icon: 'RedditOutlined',
+              path: '/sunshine',
+              routes: [
+                {
+                  name: 'this is sunshine',
+                  icon: 'RedditOutlined',
+                  path: '/sunshine/index',
+                  component: './sunshine/index',
+                }
+              ]
+            },
+            {
               component: '404',
             },
           ],
